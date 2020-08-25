@@ -11,6 +11,15 @@
  
 }
 
+@font-face {
+    font-family: 'Selima';
+    src:url('/public/assets/fonts/Selima.ttf.woff') format('woff');
+       
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 .float{
 	position:fixed;
@@ -70,6 +79,73 @@
 }
 
 
+/* COMPONENTE: HEADER */
+
+#col-icono{
+    background: #f2d1da;
+    width: 50%;
+    height: 351px;
+    
+}
+
+#logo{
+    border: 0;
+    position: absolute;
+
+    top: 20px;
+    left: 85px;
+      
+}
+
+#col-titulo{
+    background: #ec0080;
+    width: 50%;
+    height: 351px;
+}
+
+
+
+#titulo-page {
+    background: #f5f5f5;
+    position: absolute;
+    top: 44px;
+    left: -60px;
+    padding: 2%;
+    right: 0px;
+}
+
+#marca{
+    background: #f5f5f5;
+    position: absolute;
+    top: 199px;
+    left: -60px;
+    padding: 2%;
+    right: 0px;
+}
+
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+
+.jumbotron{
+    margin-top: -4%;
+    padding-bottom: 0px;
+}
+
+#boton-buscar{
+    background: #f5f5f5;
+    position: absolute;
+    top: 291px;
+    left: 255px;
+    border: none;
+    width: 50%
+}
+
+
+
+
 /* COMPONENTE: DETALLE MARCADOR */
 
 .marcador{
@@ -78,5 +154,5 @@
 
 .titulo-detalle{
   color:#dd549e;
-  font-family: 'Lobster', cursive;
+  font-family: 'Selima';
 }
