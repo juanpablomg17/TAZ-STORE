@@ -46,7 +46,7 @@ export default class Header extends Component {
                                         <span class="glyphicon glyphicon-home"></span> Home</a>
                                 </li>
                                 <li id="navMenuButton">
-                                    <Link to="/productos" onclick="$dc.loadMenuCategories();">
+                                    <Link to="/marcadores">
                                         <span class="glyphicon glyphicon-th-list"></span><br class="hidden-xs" />Productos</Link>
                                 </li>
                                 <li>
