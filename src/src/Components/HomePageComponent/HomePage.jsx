@@ -43,11 +43,9 @@ import {Link} from 'react-router-dom';
                             <i class="fa fa-whatsapp my-float"></i>
                         </a>
                     </div>
-                 
-                  
-                    <div className="container-fluid">
+                    <div className="row">
                     {HomePage}
-                    </div>
+                </div>
                 </div>
 
                
