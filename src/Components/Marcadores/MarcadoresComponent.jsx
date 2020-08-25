@@ -3,7 +3,7 @@ import React from 'react'
 import { Card, CardImg, CardFooter,
     CardTitle, Button, CardBody} from 'reactstrap';
 import {Link } from 'react-router-dom';
-
+// commit
 import './marcadores.css';
 
 function RenderMacador({marcador, onClick}){
