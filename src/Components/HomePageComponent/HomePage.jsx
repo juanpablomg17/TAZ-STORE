@@ -26,7 +26,7 @@ import {Link} from 'react-router-dom';
 
         const HomePage = props.categoria.map((cat) => {
             return (
-                <div className="col-12 col-md-4 m-1"  key={cat.id}>
+                <div className="col-12 col-md-4 m-1 col-xs-12"  key={cat.id}>
                     <RenderProductItem categoria={cat}  />
                 </div>
             );
@@ -37,15 +37,10 @@ import {Link} from 'react-router-dom';
                 
             <div  >
                 <div id="homepage">
-                    <div >
-
-                        <a target="_blank"href="https://api.whatsapp.com/send?phone=+573005033471&text=Hola,%20Quiero%20información%20sobre%20sus%20productos." class="float" target="_blank">
-                            <i class="fa fa-whatsapp my-float"></i>
-                        </a>
-                    </div>
-                    <div className="row">
+                  
+                    <div className="container-fluid">
                     {HomePage}
-                </div>
+                    </div>
                 </div>
 
                

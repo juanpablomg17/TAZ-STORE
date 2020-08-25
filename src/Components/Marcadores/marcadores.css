@@ -19,11 +19,16 @@
 }
 
 .boton{
-    display: inline-block;
+    display: none;
     /* background: #74ebd5; */  /* fallback for old browsers */
     color: black;
     background: #fc0086;
-	color: white;
-   
+    color: white;
+ 
 
 }
+
+.btn{
+    display: block;
+}
+
