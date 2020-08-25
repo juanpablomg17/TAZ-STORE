@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+        scroll-behavior: smooth;
+}
+
+
+
+.marcadores{
+    margin-left: 40px;
+}
+
+.rounded{
+    margin-bottom: 50px;
+}
+
+.boton{
+    display: inline-block;
+    /* background: #74ebd5; */  /* fallback for old browsers */
+    color: black;
+    background: #fc0086;
+	color: white;
+   
+
+}
