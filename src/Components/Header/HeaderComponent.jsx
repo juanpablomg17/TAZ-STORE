@@ -41,11 +41,13 @@ export default class Header extends Component {
 
                             </div>
                                 </div>
-
+                                <Link to="/marcadores">
                                 <button type="button" id="boton-buscar" class=" btn-lg btn-block">
                                 <span id="icon-busqueda" className="glyphicon glyphicon-search"></span>
                                     Buscar Productos</button>
-                        </div>
+
+                                </Link>
+                                                        </div>
                     </div>
                 </div>
 
