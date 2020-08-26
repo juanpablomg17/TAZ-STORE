@@ -18,6 +18,15 @@
     src: local('Selima'), url('Selima .woff') format('woff');
     }
 
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+        font-weight: normal;
+        src: local('Montserrat'), url('Montserrat-ExtraLight.ttf') format('ttf');
+        }
+
+
+
 .float{
 	position:fixed;
 	width:60px;
@@ -138,13 +147,38 @@
     top: 291px;
     left: 255px;
     border: none;
-    width: 50%
+    width: 50%;
+    box-shadow: 0 1px 5px 1px #cccccc;
+    border-style: none;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color:  #ec0080;  
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
 }
+
+#boton-buscar:active {
+    background-color:  whitesmoke;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 h3{
     font-family:'Selima';
     font-weight:normal;
     font-size:50px;
+}
+
+#icon-busqueda{
+    float: left;
+}
+
+#span-lema{
+    font-family: 'Montserrat', sans-serif;
 }
 
 

@@ -22,8 +22,10 @@ export default class Header extends Component {
                     <div className="container-fluid">
                         <div className="row">
                             <div id="col-icono" className="col-lg-4 col-md-6 col-sm-12">
-                                <img id="logo" src="/assets/images/logoGRANDE.jpeg" width="300px" height="250px" alt="LOGO"/>
-                            </div>
+                              <Link to="/home">
+                              <img id="logo" src="/assets/images/logoGRANDE.jpeg" width="300px" height="250px" alt="LOGO"/>
+
+                              </Link>                             </div>
                             <div id="col-titulo"  className="col-lg-4 col-md-6 col-sm-12">
                                <div id="titulo-page">
                                   <h1 style={{color:"#f5d0d5",
@@ -31,7 +33,7 @@ export default class Header extends Component {
                                </div>
 
                                 <div id="marca">
-                                    <span>MARCARKET LOVER</span>
+                                    <span id="span-lema"  >MAKER LOVER</span>
                                 </div>
 
                                 <div>
@@ -41,7 +43,7 @@ export default class Header extends Component {
                                 </div>
 
                                 <button type="button" id="boton-buscar" class=" btn-lg btn-block">
-                                <span className="glyphicon glyphicon-search"></span>
+                                <span id="icon-busqueda" className="glyphicon glyphicon-search"></span>
                                     Buscar Productos</button>
                         </div>
                     </div>
