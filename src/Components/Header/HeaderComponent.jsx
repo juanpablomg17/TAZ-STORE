@@ -27,7 +27,7 @@ export default class Header extends Component {
                             <div id="col-titulo"  className="col-lg-4 col-md-6 col-sm-12">
                                <div id="titulo-page">
                                   <h1 style={{color:"#f5d0d5",
-                                        fontFamily: 'Selima', textAlign: "center"}}>TAZ STORE</h1>  
+                                        fontFamily: 'Selima', textAlign: "center"}}>Taz Store</h1>  
                                </div>
 
                                 <div id="marca">
