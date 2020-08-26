@@ -18,7 +18,7 @@ export default class Header extends Component {
 
         return (
            
-                <div class="jumbotron">
+                <div class="jumbotron" style={{paddingBottom: "0px"}}>
                     <div className="container-fluid">
                         <div className="row">
                             <div id="col-icono" className="col-lg-4 col-md-6 col-sm-12">
@@ -26,7 +26,8 @@ export default class Header extends Component {
                             </div>
                             <div id="col-titulo"  className="col-lg-4 col-md-6 col-sm-12">
                                <div id="titulo-page">
-                                  <h1>TAZ STORE</h1>  
+                                  <h1 style={{color:"#f5d0d5",
+                                        fontFamily: 'Selima', textAlign: "center"}}>TAZ STORE</h1>  
                                </div>
 
                                 <div id="marca">
@@ -41,7 +42,7 @@ export default class Header extends Component {
 
                                 <button type="button" id="boton-buscar" class=" btn-lg btn-block">
                                 <span className="glyphicon glyphicon-search"></span>
-                                    Block level button</button>
+                                    Buscar Productos</button>
                         </div>
                     </div>
                 </div>

@@ -13,13 +13,10 @@
 
 @font-face {
     font-family: 'Selima';
-    src:url('/public/assets/fonts/Selima.ttf.woff') format('woff');
-       
-    font-weight: normal;
     font-style: normal;
-}
-
-
+    font-weight: normal;
+    src: local('Selima'), url('Selima .woff') format('woff');
+    }
 
 .float{
 	position:fixed;
@@ -121,6 +118,7 @@
     left: -60px;
     padding: 2%;
     right: 0px;
+    text-align: center;
 }
 
 
@@ -141,6 +139,12 @@
     left: 255px;
     border: none;
     width: 50%
+}
+
+h3{
+    font-family:'Selima';
+    font-weight:normal;
+    font-size:50px;
 }
 
 
